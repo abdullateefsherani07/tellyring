@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(231, 228, 228);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgb(255, 0, 170); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(228, 13, 163);
+}
+/* Navigation Bar Styling */
+.navbar{
+    background-color: rgb(20, 17, 17);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list li:hover{
+    color: black;
+}
+.nav-list li a{
+    cursor: pointer;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav-list li a:hover{
+    background-color: rgb(255, 0, 191);
+    color: black;
+}
+.navbar img{
+    cursor: pointer;
+    width: 50px;
+    border: black solid;
+    border-radius: 50px;
+}
+.logo{
+    margin-left: 40px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+    text-align: right;
+    padding: 0 5px;
+}
+#search{
+    font-size: 1rem;
+    padding: 5px;
+    border: 2px solid rgb(233, 229, 229);
+    border-radius: 9px;
+}
+#search:hover{
+    color: white;
+    background: none;
+}
+#search:hover::placeholder{
+    color: white;
+}
+#search:focus::placeholder{
+    color: white;
+}
+#search:focus{
+    color: white;
+    background: none;
+}
+/* Background */
+.background{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: rgb(0, 0, 0, 0.7) url(bg.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* Main Section  */
+.first-section{
+    height: 100vh;
+}
+.box-main{
+    height: 80%;
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.text-big{
+    overflow: hidden;
+    font-size: 41px;
+}
+.text-small{
+    overflow: hidden;
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 20px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 17px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.blog-btn{
+    padding: 8px 20px;
+    margin: 10px 3px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 17px;
+    background: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.blog-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.btn-sm{
+    margin: 7px;
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 100px;
+    width: 200px;
+}
+.cantainer{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 7, 7);
+}
+#blog{
+    margin-bottom: 50px;
+}
+.blog-area-title{
+    padding: 60px 0 0 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section{
+    height: 100%;
+    max-height: 50%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 0;}
+.paras{
+    padding: 0 20px;
+}
+.SectionTag{}
+.SectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 17px;
+}
+.buttons{
+    display: flex;
+    margin: 1px 0 0 0;
+}
+.vansh-blog-buttons{
+    margin-top: 1px;
+}
+.search-bar input{
+    width: 50%;
+}
+.thumbnail img{
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 30px;
+    width: 230px;
+}
+.SecLeft{
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+#contactus{
+    background-color: #f6f5f4;
+    overflow: hidden;;
+    border: 2px solid white;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 18%;
+}
+.contact-title{
+    margin-top: 7%;
+}
+.contact-subtitle{
+    margin: auto auto 30px auto;
+}
+form{
+    width: 100%;
+}
+.form-input{
+    width: 80%;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin: 15px auto;
+}
+.msgbtn{
+    justify-content: center;
+}
+.cnclbtn{
+    color: rgb(0, 0, 0);
+    background: none;
+    border: black 2px solid;
+    border-radius: 8px;
+    margin-right: 5%;
+}
+.cnclbtn:hover{
+    color: white;
+    background-color: black;
+}
+.sbmtbtn{
+    color: rgb(0, 0, 0);
+    background: none;
+    border: black 2px solid;
+    border-radius: 8px;
+}
+.sbmtbtn:hover{
+    color: white;
+    background-color: black;
+}
+.desktop-footbar{
+    justify-content: center;
+    background-color: black;
+}
+.mobile-footbar{
+    display: none;
+}
+.footer-ul{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-ul ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.footer-ul li{
+    font-size: 15px;
+    line-height: 23px;
+    list-style: none;
+}
+.footer-ul li:first-child{
+    font-size: 23px;
+}
+.footer-ul hr{
+    width: 170px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer-ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 15px;
+    padding: 13px 0;
+    color: white;
+    background-color: rgb(32, 31, 31);
+}

@@ -1,0 +1,232 @@
+@media only screen and (max-width: 1024px){
+    .box-main{
+        margin-top: 40px;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-section{
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .firsthalf{
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondhalf{
+        max-width: 100%;
+        text-align: center;
+        width: 50%;
+    }
+    .hidden-text{
+        display: none;
+    }
+    .secondhalf img{
+        border-radius: 40px;
+    }
+    .btn{
+        margin: 20px 3px;
+    }
+    .background{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 48vh;
+        background-size: auto;
+    }
+}
+@media only screen and (max-width: 840px){
+    body{
+        width: 100%;
+    }
+    .navbar{
+        height: 40px;
+    }
+    .navbar img{
+        width: 36px;
+    }
+    .background{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 45vh;
+        background-size: auto;
+    }
+    .first-section{
+        max-width: 100%;
+    }
+    .box-main{
+        margin-top: 20px;
+        margin-left: 10px;
+        max-width: 100%;
+    }
+    .firsthalf{
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondhalf{
+        max-width: 100%;
+        text-align: center;
+        width: 50%;
+    }
+    .secondhalf img{
+        border-radius: 40px;
+    }
+    .btn{
+        margin: 20px 3px;
+    }
+    .blog-section{
+        flex-direction: column-reverse;
+        max-height: 100%;
+        text-align: center;
+    }
+    .paras{
+        padding: 0;
+    }
+    .thumbnail img{
+        width: 100%;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .form-input{
+        width: 100%;
+    }
+    .desktop-footbar{
+        display: none;
+    }
+    .mobile-footbar{
+        background-color: black;
+    }
+    .first-ul-row{
+        display: flex;
+    }
+    .second-ul-row{
+        display: flex;
+    }
+    .footer-ul{
+        display: table;
+        max-width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .footer-ul ul{
+        text-align: center;
+        margin: 20px 50px;
+    }
+}
+@media only screen and (max-width: 645px){
+    .navbar{
+        position: fixed;
+    }
+    .nav-list{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .nav-list .logo{
+        margin: 7px 0 7px;
+    }
+    .nav-list li{
+        opacity: 0;
+        width: 0px;
+    }
+    .search-bar{
+        width: 1200px;
+    }
+    .box-main{
+        margin-top: 50px;
+    }
+    .secondhalf{
+        margin-top: 0px;
+    }
+    .secondhalf img{
+        width: 140px;
+    }
+    .hidden-text{
+        display: none;
+    }
+    #contactus{
+        padding-right: 23%;
+    }
+}
+@media only screen and (max-width: 396px){
+   
+    .hidden-pera{
+        font-size: 15px;
+    }
+    .text-big{
+        font-size: 40px;
+    }
+    .text-small{
+        font-size: 20px;
+    }
+    .secondhalf{
+        margin-top: 200px;
+    }
+   
+    .secondhalf{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .secondhalf{
+        margin-top: 10px;
+    }
+    .text-big{
+        font-size: 25px;
+    }
+    .text-small{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .box-main{
+        margin-top: 80px;
+        flex-direction: column-reverse;
+    }
+    .secondhalf img{
+        width: 140px;
+    }
+    .background{
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 512px){
+    .secondhalf img{
+        width: 170px;
+    }
+    .mobile-footbar{
+        display: none;
+    }
+    .thumbnail img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 280px){
+    .text-big{
+        font-size: 30px;
+    }
+    .text-small{
+        font-size: 17px;
+    }
+    .secondhalf img{
+        width: 120px;
+    }
+    .box-main{
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        padding: 3px 8px;
+    }
+    .blog-btn{
+        padding: 6px 13px;
+    }
+}
